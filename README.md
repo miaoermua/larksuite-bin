@@ -3,6 +3,8 @@ AUR [packages/larksuite-bin](https://aur.archlinux.org/packages/larksuite-bin)
 
 源由：飞书国际版（larksuite）在下载链接中通过时间戳和签名，构建 .deb 的包下载需要手动下载构建，所以我这里 releases 就缓存一份当前版本的 deb 包文件用于 AUR 包的构建。
 
+Maintainer: https://github.com/strrl
+
 ## 本仓库无法解决
 
 - 无法解决小版本更新但是不更新 pkgver 的
@@ -17,3 +19,23 @@ AUR [packages/larksuite-bin](https://aur.archlinux.org/packages/larksuite-bin)
 ![截图 2025-07-07 10-22-16](https://github.com/user-attachments/assets/cc72253e-fa4c-42a2-83c6-ed49b40e65b3)
 
 本仓库使用 MIT 许可证，您可以自由更改，如果本人无法留意到更新提交 issuse 提醒我进行更新。🤗
+
+## 不通过 AUR 构建安装本项目
+
+```sh
+git clone https://github.com/miaoermua/larksuite-bin.git
+cd larksuite-bin
+makepkg
+sudo pacman -U larksuite-bin-*.pkg.tar.zst
+```
+
+
+<!--
+## 通过 AUR 安装
+
+还在旧版本，没完全谈完
+
+```sh
+paru -S larksuite-bin
+```
+--->
