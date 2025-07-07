@@ -1,14 +1,11 @@
-*.tar
-*.tar.*
-*.jar
-*.exe
-*.msi
-*.deb
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+Justfile
+tmp/
 
-pkg/
-src/
+*.deb
+*.rpm
+*.log
+*.xz
+*.zst
+
+pkg
+src
