@@ -1,6 +1,7 @@
 # Mostly a copy of feishu-bin's PKGBUILD with s/feishu/lark/
 # Contributor: Sabit Maulana <sbtmul@gmail.com>
 # Maintainer: aliu <double-a, r-o-n to the 0-1-3-0 at ur gmail.com>
+# Maintainer: miaoermua <miaoermua@gmail.com>
 pkgname=larksuite-bin
 pkgver=7.42.17
 #_pkgrel=24
@@ -17,7 +18,7 @@ replaces=('bytedance-lark-dev-bin')
 provides=('bytedance-lark' 'lark')
 options=('!emptydirs')
 install=${pkgname}.install
-source=("https://lf16-larkappversion-sign.larksuitecdn.com/obj/lark-artifact-storage/${_pkghash}/Lark-linux_x64-${pkgver}.deb?lk3s=fb957577&x-expires=1751521272&x-signature=zbyrrVf8UjDYt99ky4zR0YcX4Io%3D")
+source=("https://github.com/miaoermua/larksuite-bin/releases/download/${pkgver}/Lark-linux_x64-${pkgver}.deb")
 sha256sums=('7eeb1495f6488d9e754a76e0d962518591b043ecadcd8f3c6a66d51d27c3d269')
 
 package() {
