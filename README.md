@@ -1,6 +1,8 @@
 # larksuite-bin
 AUR [packages/larksuite-bin](https://aur.archlinux.org/packages/larksuite-bin)
 
+[README-EN](/REMEAD-EN.md)
+
 源由：飞书国际版（larksuite）在下载链接中通过时间戳和签名，构建 .deb 的包下载需要手动下载构建，所以我这里 releases 就缓存一份当前版本的 deb 包文件用于 AUR 包的构建。
 
 Maintainer: https://github.com/strrl
