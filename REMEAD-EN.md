@@ -18,7 +18,7 @@ Then compare the `sha256sums` value in the `PKGBUILD` with the one provided in t
 
 ![Screenshot 2025-07-07 10-22-16](https://github.com/user-attachments/assets/cc72253e-fa4c-42a2-83c6-ed49b40e65b3)
 
-This repository is licensed under the MIT License. You are free to make modifications. If I fail to notice an update, feel free to submit an issue to remind me to update.🤗
+This repository is licensed under the MIT License. You are free to make modifications. If I fail to notice an update, feel free to submit an [issues](https://github.com/miaoermua/larksuite-bin/issues/new) to remind me to update.🤗
 
 ## Install Without Using AUR
 
