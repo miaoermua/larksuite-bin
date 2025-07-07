@@ -14,4 +14,6 @@ AUR [packages/larksuite-bin](https://aur.archlinux.org/packages/larksuite-bin)
 
 然后校对 PKGBUILD 的 sha256sums，和 releases 里面提供的 sha256，如果不一样你可以选择不使用我缓存的文件，自行修改构建 Larksuite 。
 
+![截图 2025-07-07 10-22-16](https://github.com/user-attachments/assets/cc72253e-fa4c-42a2-83c6-ed49b40e65b3)
+
 本仓库使用 MIT 许可证，您可以自由更改，如果本人无法留意到更新提交 issuse 提醒我进行更新。🤗
