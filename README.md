@@ -31,6 +31,7 @@ makepkg
 sudo pacman -U larksuite-bin-*.pkg.tar.zst
 ```
 
+![截图 2025-07-07 11-13-21](https://github.com/user-attachments/assets/ff4aabfb-ee3a-475b-b5fb-221aa4bf2529)
 
 <!--
 ## 通过 AUR 安装
